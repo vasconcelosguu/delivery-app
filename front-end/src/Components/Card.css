@@ -1,0 +1,29 @@
+.Card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+img {
+  height: 150px;
+  object-fit: contain;
+  width: 50px;
+}
+
+.Card__container-buttons {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  max-width: 50px;
+}
